@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Time-Tracking Extension",
+  "version": "1.0",
+  "description": "Track time spent on each tab.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./icons/logo.png",
+      "48": "./icons/logo.png",
+      "128": "./icons/logo.png"
+    }
+  },
+  "icons": {
+    "16": "./icons/logo.png",
+    "48": "./icons/logo.png",
+    "128": "./icons/logo.png"
+  }
+}
